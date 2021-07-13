@@ -15,4 +15,5 @@ export const Body = styled.div`
   flex-direction: column;
   border: 1px solid black;
   background-color: #fffcf9;
+  position: relative;
 `;

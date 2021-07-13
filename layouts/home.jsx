@@ -1,5 +1,5 @@
 import { Window, Body } from "./home.style";
-import { Header, Card } from "components";
+import { Header, Card, Navbar } from "components";
 
 export default function HomeLayout({ children, ...props }) {
   return (
@@ -11,13 +11,7 @@ export default function HomeLayout({ children, ...props }) {
 
         <Card backgroundcolor="purple" />
 
-        <div>
-          <button>Home</button>
-          <br />
-          <button>Libraries</button>
-          <br />
-          <button>Profile</button>
-        </div>
+        <Navbar />
       </Body>
     </Window>
   );
