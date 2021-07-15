@@ -18,7 +18,9 @@ export const NavButton = styled.li`
   font-family: inherit;
   font-size: 10px;
   line-height: 12px;
+  background-color: #ffffff;
   :hover {
     background-color: rgba(0, 0, 0, 0.02);
+    color: black;
   }
 `;

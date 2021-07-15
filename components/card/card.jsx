@@ -1,9 +1,11 @@
 import { CardContainer, Card } from "./card.style";
-
-export default function CardComponent({ children, ...props }) {
+import Image from "next/image";
+export default function CardComponent({ children, backgroundcolor, ...props }) {
   return (
-    <CardContainer {...props}>
-      <Card {...props}></Card>
+    <CardContainer>
+      <Card backgroundcolor={backgroundcolor}>
+        <Image {...props} alt={props.alt} />
+      </Card>
     </CardContainer>
   );
 }

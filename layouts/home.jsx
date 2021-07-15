@@ -6,11 +6,13 @@ export default function HomeLayout({ children, ...props }) {
     <Window>
       <Body>
         <Header />
-
-        <Card backgroundcolor="#00173D" />
-
-        <Card backgroundcolor="purple" />
-
+        <Card
+          backgroundcolor="#00173D"
+          src="/images/hooked.svg"
+          height={136}
+          width={252}
+          alt=""
+        />
         <Navbar />
       </Body>
     </Window>
